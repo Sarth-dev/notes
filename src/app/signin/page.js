@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client"
 import { useState } from "react"
 import { useRouter } from "next/navigation"
@@ -177,7 +178,7 @@ export default function SignIn() {
             onClick={handleGoogleSignIn}
             className="w-full flex items-center justify-center gap-2 border border-gray-300 py-2 rounded hover:bg-gray-100"
           >
-            <img src="/google.svg" alt="Google" className="w-5 h-5" />
+            <img src="https://imgs.search.brave.com/XUw-4vDMircK355cvrmedUbEUXjwLfWTLUWV7GeRKJ0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzNjLzE3/L2NjLzNjMTdjY2Iy/NWQxODZlMmRmYzc0/YWE3NjRkMzRkOTA3/LmpwZw" alt="Google" className="w-5 h-5" />
             Sign in with Google
           </button>
         </form>
