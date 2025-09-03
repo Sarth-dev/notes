@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:5000/api"; // update as needed
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "https://notesbackend-mne8.onrender.com/"; // update as needed
 
 export default function Signup() {
   const router = useRouter();
